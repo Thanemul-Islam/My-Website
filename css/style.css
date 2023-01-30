@@ -127,7 +127,15 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
+.section__subtitle_sub--work {
+    color: var(--clr-accent);
+    font-weight: lighter;
+}
 
+.section__subtitle_exp--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+}
 /* header */
 
 header {
@@ -336,6 +344,9 @@ header {
     }
 }
 
+.about-me__body{
+    max-width: 300;
+}
 
 .about-me {
     max-width: 1000px;
