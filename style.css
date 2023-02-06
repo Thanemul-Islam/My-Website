@@ -348,6 +348,7 @@ header {
 
 .about-me__body{
     max-width: 600px;
+    float: left;
 }
 
 .about-me {
@@ -355,8 +356,9 @@ header {
     margin: 0 auto;
 }
 
-.about-me__img {
+.experience__img {
     box-shadow: var(--bs);
+    float: right;
 }
 
 @media (min-width: 600px) {
@@ -383,12 +385,6 @@ header {
         padding-left: 1em;
         padding-right: calc(200px + 4em);
     }
-    
-    .about-me__img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
-    }
 }
 
 /* My Work */
@@ -397,33 +393,7 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
-}
-
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.portfolio__item {
-    background: var(--clr-accent);
-    overflow: hidden;
-}
-
-.portfolio__img {
-    transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-}
-
-.portfolio__item:focus {
-    position: relative;
-    z-index: 2;
-}
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
-    opacity: .5;
+    height: 550px;
 }
 
 
