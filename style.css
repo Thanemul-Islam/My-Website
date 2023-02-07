@@ -122,8 +122,12 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 1em;
 }
 
-.section__subtitle--work {
+.header3 {
     color: var(--clr-accent);
+}
+
+.section__subtitle--work {
+    color: var(--clr-light);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
@@ -308,6 +312,10 @@ header {
     text-align: center;
 }
 
+.experience__img {
+    scale: 2;
+}
+
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
@@ -345,7 +353,9 @@ header {
         margin-left: 2em;
     }
 }
-
+.section__title--work{
+    color: var(--clr-accent);
+}
 .about-me__body{
     max-width: 600px;
     float: left;
@@ -393,7 +403,7 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
-    height: 550px;
+    height: 1100px;
 }
 
 
