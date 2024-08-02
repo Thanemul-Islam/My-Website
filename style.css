@@ -142,6 +142,12 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-bold);
     max-width: 600px;
 }
+
+.section__subtitle_exp--title {
+    color: var(--clr-dark);
+    font-weight: var(--fw-bold);
+    max-width: 600px;
+}
 /* header */
 
 header {
